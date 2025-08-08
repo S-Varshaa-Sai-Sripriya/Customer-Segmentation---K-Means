@@ -1,0 +1,6 @@
+data_ingestion:
+  raw_data_path: artifacts/data/Mall_Customers.csv
+
+model_trainer:
+  n_clusters: 5
+  model_output_path: artifacts/kmeans_model.pkl
